@@ -1,0 +1,19 @@
+/*Tranquil Woodland Color Palette*/
+/*May you find inspiration in these aesthetics*/
+:root{
+    --goosegrey: #242625;
+    --shrubgreen: #363D34;
+    --cloudy: #9FB5AC;
+    --creamcaramel: #B38B58;
+    --percygreen: #8AA58D;
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--goosegrey);
+    color: var(--percygreen);
+}
+
+div{
+    margin: 0 25%;
+}
