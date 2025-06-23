@@ -1,19 +1,81 @@
 /*Tranquil Woodland Color Palette*/
 /*May you find inspiration in these aesthetics*/
 :root{
-    --goosegrey: #242625;
-    --shrubgreen: #363D34;
-    --cloudy: #9FB5AC;
-    --creamcaramel: #B38B58;
-    --percygreen: #8AA58D;
+    --parchment-light: #f1ecde; 
+    --parchment: #E7DFC6;
+    --parchment-dark: #D4CAB0;
+    --ink-light: #807e7b;
+    --ink: #3d3c3b;
+    --red-ink: #be0e34;
+    --red-ink-light: #f93333;
+
 }
 
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: var(--goosegrey);
-    color: var(--percygreen);
+
+
+body{
+    font-family: "EB Garamond", Georgia, serif;
+    background-color: var(--parchment-light);
+    color: var(--ink);
+    padding: 0 2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-div{
-    margin: 0 25%;
+header{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    font-size: 1.1rem;
 }
+
+.homepage{
+    font-size: 1.1rem;
+}
+
+.temp-page{
+    font-size: 1.2rem;
+    color: var(--ink)
+}
+
+.title a{
+    text-decoration: none;
+    color: var(--ink);
+    font-weight: 550;
+}
+
+.nav-pane {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0 ;
+    margin: 0 0 4rem 0;
+  }
+  
+
+.nav-pane a {
+    text-decoration: none;
+    color: var(--red-ink); 
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-pane a:hover {
+    color: var(--red-ink-light); 
+  }
+  
+  .temp-page-photo {
+    width: 400px;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .temp-page-photo img {
+    width: 100%;
+    height: auto;
+  }
+  
